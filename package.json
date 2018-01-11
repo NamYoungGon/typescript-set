@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.10",
+    "npm-run-all": "^4.1.2",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "name": "typescript-set",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm-run-all -p start:server start:build",
+    "start:server": "nodemon ./dist/dev.bundle.js --watch \"./dist\"",
+    "start:build": "node ./scripts/build-dev"
+  }
+}

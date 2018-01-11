@@ -1,0 +1,17 @@
+npx: global로 패키지를 설치하지 않더라도 프로젝트 내에서 사용할 수 있게 해준다.
+
+nodemon: 파일이 변화될 때마다 재실행해준다.
+
+typescript: typescript로 구성한 코드를 javascript로 트랜스파일링 해준다.
+
+npm-run-all: 여러 npm 실행 명령을 병렬로 실행할 수 있게 해준다.
+
+webpack: 요즘 각광받는 모듈 번들러
+
+@types/express: express 모듈에 대한 type을 지원해준다.
+
+/*
+    $ npm install -g npx
+    $ npm install --save-dev typescript ts-loader npm-run-all webpack @types/express nodemon
+    $ npm install --save express
+*/
